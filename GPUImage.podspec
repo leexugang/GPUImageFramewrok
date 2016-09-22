@@ -25,9 +25,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '7.0'
   spec.requires_arc = true
   spec.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'QuartzCore', 'OpenGLES', 'CoreMedia', 'CoreVideo'
-  spec.source = { :git => 'https://github.com/onlyyoujack/GPUImage_framework', :tag => spec.version }
+  spec.source = { :git => 'https://github.com/pretouch/GPUImageFramewrok', :tag => spec.version }
   spec.preserve_paths      = 'framework/GPUImage.framework'
   spec.public_header_files = 'framework/GPUImage.framework/Headers'
   spec.vendored_frameworks = 'framework/GPUImage.framework'
 end
-
