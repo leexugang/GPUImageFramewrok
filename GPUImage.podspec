@@ -1,14 +1,6 @@
-#
-#  Be sure to run `pod spec lint GPUImage.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
-
 Pod::Spec.new do |spec|
   spec.name         = 'GPUImage'
-  spec.version      = '0.1.7'
+  spec.version      = '0.1.7.1'
   spec.license      = {
 :type => 'Proprietary',
 :text => <<-LICENSE
@@ -30,3 +22,4 @@ Pod::Spec.new do |spec|
   spec.public_header_files = 'framework/GPUImage.framework/Headers'
   spec.vendored_frameworks = 'framework/GPUImage.framework'
 end
+
